@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Website</title>
+	<!---css link---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Portfolio.</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span>Hello, </span>I'm
+			</div>
+			<h1 style="font-size: 50px;">Omprakash</h1>
+			<h3 style="font-size: 35px;">And I am a <span class="auto-input">Web Developer!</span></h3>
+			<p>I can develop website using html, <br>  css, javascript and django.</p>
+			<div class="button">
+				<a href="#" class="btn">Download CV</a>
+				<a href="#" class="btn">About Me</a>
+			</div>
+		</div>
+		<div class="images" style="margin-right: 70px;">
+			<img src="image/user.jpg" alt="" width="450px" height="450px">
+		</div>
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="image/user1.jpg" width="450px" height="450px">
+		</div>
+
+		<div class="about-text">
+			<h2 style="margin-top: -50px;">About Me</h2>
+			<br>
+			<p>I am a passionate website developer with a knack for turning ideas into stunning online experiences. With a strong foundation in HTML, CSS, and JavaScript, I create responsive and user-friendly websites that captivate and engage visitors. I thrive on problem-solving and staying at the forefront of web development trends, ensuring that my projects are both visually appealing and technologically advanced. Collaborative and detail-oriented, I work closely with clients to bring their visions to life, emphasizing clean code and optimal performance. Committed to continuous learning, I am dedicated to delivering top-notch websites that leave a lasting impression.
+				</p>
+				<a href="#" class="btn">More About</a>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<!-- <section class="services" id="services">
+	<div class="main-text">
+		<h2><span>My </span>Services</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-mobile-alt'></i>
+			</div>
+			<h3>Web Design</h3>
+			<p>One Way to categories the activities is in terms of the professional's area of experience such as competitive analysis, corporate stragety.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-code-alt'></i>
+			</div>
+			<h3>Creative Design</h3>
+			<p>One Way to categories the activities is in terms of the professional's area of experience such as competitive analysis, corporate stragety.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-edit-alt'></i>
+			</div>
+			<h3>Creative Design</h3>
+			<p>One Way to categories the activities is in terms of the professional's area of experience such as competitive analysis, corporate stragety.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+	</div>
+
+</section> -->
+
+<!-----------Skill Section-------------->
+<section class="skill" id="skills">
+	<div class="main-text">
+		<h2 style="margin-top: -70px;">My Skills</h2>
+	</div>
+	<div class="main-skill">
+		<li><h3>Html</h3>
+			<span class="bar"><span class="html"></span></span>
+		</li>
+		<br>
+		<li><h3>CSS</h3>
+			<span class="bar"><span class="css"></span></span>
+		</li>
+		<br>
+		<li><h3>JavaScript</h3>
+			<span class="bar"><span class="javascript"></span></span>
+		</li>
+		<br>
+		<li><h3>Django</h3>
+			<span class="bar"><span class="django"></span></span>
+		</li>
+		<br>
+		<li><h3>Php</h3>
+			<span class="bar"><span class="php"></span></span>
+		</li>
+		<br>
+		<li><h3>React Js</h3>
+			<span class="bar"><span class="reactjs"></span></span>
+		</li>
+		<br>
+		<li><h3>App Development</h3>
+			<span class="bar"><span class="appdev"></span></span>
+		</li>
+	</div>		
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2 style="margin-top: -70px;">Latest Project</h2>
+	</div>
+	<!-- <div class="portfolio-content"> -->
+		<!-- <div class="row">
+			<img src="image/project1.jpg" >
+			<div class="layer">
+				<h5>Visual Design</h5>
+				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div> -->
+	<!-- </div> -->
+<div class="card-row">
+	<div class="card">
+		<img src="image/converter.webp" alt="">
+		<div class="card-body">
+			<h1 class="title">Currency Converter</h1>
+			<p class="sub-title">Instant Currency Conversion: Simplifying Global Transactions</p>
+			<p class="card-info">A currency converter computes the exchange rate between two currencies, simplifying financial transactions and travel expenses for international users.</p>
+			<br>
+			<button class="card-btn">Read More</button>
+		</div>
+	</div>
+
+	<div class="card">
+		<img src="image/jobportal.jpeg" alt="">
+		<div class="card-body">
+			<h1 class="title">Online Job Portal</h1>
+			<p class="sub-title">Efficiently Connect Job Seekers and Employers</p>
+			<p class="card-info">An online job portal management system streamlines job listings, and candidate searches for efficient recruitment.</p>
+			<br>
+			<button class="card-btn">Read More</button>
+		</div>
+	</div>
+	<div class="card">
+		<img src="image/volunteer.png" alt="">
+		<div class="card-body">
+			<h1 class="title">Volunteer Management System</h1>
+			<p class="sub-title">Effortless Volunteer Coordination: Streamlining Community Engagement</p>
+			<p class="card-info">A VMS efficiently organizes, and engages volunteers, optimizing community involvement and impact.</p>
+			<br>
+			<button class="card-btn">Read More</button>
+		</div>
+	</div>
+
+	<div class="card">
+		<img src="image/hospital.jpg" alt="">
+		<div class="card-body">
+			<h1 class="title">Hospital Management System</h1>
+			<p class="sub-title">Streamlining Healthcare Operations: HMS for Efficient Patient Care</p>
+			<p class="card-info">A HMS automates medical records, appointments, and enhancing healthcare  and patient care.</p>
+			<br>
+			<button class="card-btn">Read More</button>
+		</div>
+	</div>
+	<div class="card">
+		<img src="image/currency.webp" alt="">
+		<div class="card-body">
+			<h1 class="title">Currency Recognition System</h1>
+			<p class="sub-title">Enhancing Accessibility: CRS for the Visually Impaired</p>
+			<p class="card-info">A CRS assists the visually impaired by identifying and providing information about various banknotes.</p>
+			<br>
+			<button class="card-btn">Read More</button>
+		</div>
+	</div>
+</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text" style="margin-top: -150px;">
+		<h2 >Contact Me!</h2>
+		<br> 
+		<div class="list">
+			<li><a href="#"><i style="font-size:17px" class="fa">&#xf095;</i> +91 8951578852</a></li>
+			<li><a href="#"><i style="font-size:17px" class="fa">&#xf0e0;</i> omprakashra71@gmail.com</a></li>
+			<li><a href="#"><i style="font-size:17px" class="fa">&#xf041;</i> AECS Layout, Bangalore, Karnataka</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+			<a href="https://web.telegram.org/k/"><i class='bx bxl-telegram' ></i></a>
+			<a href="https://www.instagram.com"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="https://www.youtube.com"><i class='bx bxl-youtube' ></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form" style="margin-top: -60px;">
+		<form action="">
+			<input type="name" placeholder="Enter your Name " required>
+			<input type="email" placeholder="Enter your Email " required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Submit" class="submit" required>
+		</form>
+
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>Design By Omprakash Rana</p>
+	</div>
+	<div>&copy; Reserved Copyright 2023</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+	var typed = new Typed(".auto-input", {
+		strings:["Web Developer","App Developer"],
+		typeSpeed:100,
+		backSpeed: 100,
+		loop: true
+	})
+</script>
+</body>
+
+</html>
